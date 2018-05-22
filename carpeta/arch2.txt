@@ -1,13 +1,3 @@
-q = load "SalesODS_Opportunity_Attributes";
-q = filter q by 'OpportunityProcessedStatusDesc' in ["Pipeline", "Unqualified"];
-q = filter q by 'AttributeDesc' in all;
-q = filter q by 'OpportunityId__c' in all;
-q = filter q by 'CROperatingGroup__c' in all;
-q = filter q by 'OU__c' in all;
-q = filter q by 'MasterClientClassDesc' in all;
-q = filter q by 'GeographicUnitMod' in all;
-q = filter q by 'SellingCountryNm__c' in all;
-q = filter q by 'BusinessDimensionNm' in all;
-q = filter q by 'ServiceGroupNm' in all;
+texto 2 
 
 
