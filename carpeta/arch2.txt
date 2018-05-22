@@ -9,6 +9,5 @@ q = filter q by 'GeographicUnitMod' in all;
 q = filter q by 'SellingCountryNm__c' in all;
 q = filter q by 'BusinessDimensionNm' in all;
 q = filter q by 'ServiceGroupNm' in all;
-q = filter q by 'MasterCustomerNm' in all;
-q = filter q by 'CRClientServiceGroup__c' in all;
+
 
